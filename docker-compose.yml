@@ -77,7 +77,7 @@ services:
     logging:
       driver: gelf
       options:
-        gelf-address: udp://graylog:12201
+        gelf-address: udp://127.0.0.1:12201
         tag: "vaultwarden"
     networks:
       - graylog
